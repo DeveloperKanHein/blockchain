@@ -6,7 +6,7 @@ class Chain{
     }
 
     initialBlock(){
-        return new Block(0, {'amount': 1000, 'from': 'User-1', 'to': "User-2"}, Date.now(), "0");
+        return new Block(0, {'amount': 10000, 'from': 'User-1', 'to': "User-2"}, Date.now(), "0");
     }
 
     latestBlock(){
